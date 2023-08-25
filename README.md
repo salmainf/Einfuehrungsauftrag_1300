@@ -49,14 +49,13 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1 |  Programm gestartet          |  -       |  Ich denke die Zahl ist:                 |
+| 2.1  |  Programm gestartet warten auf Eingabe von User            |  13       |   Richtig!/Falsch!                |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
+![grafik](https://github.com/salmainf/Einfuehrungsauftrag_1300/assets/110892351/10695a91-c463-4790-ada5-4eeb36f5af8f)
 
 ## 2 Planen
 
