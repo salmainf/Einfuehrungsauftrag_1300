@@ -1,14 +1,5 @@
 # Einfuehrungsauftrag_1300
 
-|Datum|Arbeitspaket|Verantwortliche|
-|-----|------------|---------------|
-|18.08.2023|Abschliessen eines Kurses, zum auffrischen von C# Kenntnissen|Salma Tanner|
-|18.08.2023|Planen von Arbeitspaketen für das Projekt|Salma Tanner|
-|25.08.2023|Starten mit realisieren des Projektes|Salma Tanner|
-|01.09.2023|Abschliessen des Realisierens|Salma Tanner|
-|08.09.2023|Portfolioeintrag|Salma Tanner|
-|15.09.2023|Abgabe|Salma Tanner|
-
  # Projekt-Dokumentation
 
 Salma Tanner
@@ -31,15 +22,15 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |   Muss              | Funktional     | Als User möchte ich Zahlen eingeben können, damit ich die Zufallszahl erraten kann. |
+| 1    |   Muss              | Funktional     |  Als ein Programmierer möchte ich ene Zufallszahl zwischen 1-100 generieren. |
 | 2  |    Muss             |  Funktional    |   Als User möchte ich, dass ich eine Rückmeldung erhalte, ob meine geratene Zahl richtig ist.                              |
-| 3  |     Muss            | Funktional     |     Als User möchte ich bei einer Falschen Eingabe eine Nachricht angezeigt bekommen.                               |
-| 4  |      Muss           |    Funktional  |                Als ein Programmierer möchte ich bei einer inkorrekten Eingabe eine Fehlermeldung ausgeben, anstatt eines Shutdowns.                    |
-| 5  |       Muss          |   Funktional   |     Als ein Programmierer möchte ich den User fragen, ob er nochmals eine Runde spielen will, wenn er die Zufalszahl erraten hat.                                |
-| 6  |       Muss          |   Funktional   |    Als ein Programmierer möchte ich den Namen des Nutzers abfragen, damit ich am Ende das Ergebnis mit Namen ausgeben kann.                                  |
-| 7  |       Muss          |    Funktional  |  Als ein User möchte ich am Ende sehen, wie viele Versuche ich gebraucht habe.                             |
-| 8  |     Muss            |  Funktional    |    Als ein Programmierer möchte ich ene Zufallszahl zwischen 1-100 generieren.                                |
-| 9 |        Muss         | Funktional     |   Als ein User möchte ich bei jedem Versuch angezeigt bekommen, ob meine geratene Zahl kleiner oder grösser als die Zufallszahl ist.                                 |
+| 3  |     Muss            | Funktional     |      Als User möchte ich Zahlen eingeben können, damit ich die Zufallszahl erraten kann.                                |bekommen.                               |
+
+| 4 |       Muss          |   Funktional   |     Als ein Programmierer möchte ich den User fragen, ob er nochmals eine Runde spielen will, wenn er die Zufalszahl erraten hat.                                |
+| 5  |       Muss          |   Funktional   |    Als ein Programmierer möchte ich den Namen des Nutzers abfragen, damit ich am Ende das Ergebnis mit Namen ausgeben kann.                                  |
+| 6  |       Muss          |    Funktional  |  Als ein User möchte ich am Ende sehen, wie viele Versuche ich gebraucht habe.                             |
+| 7  |     Muss            |  Funktional    |   Als User möchte ich bei einer Falschen Eingabe eine Nachricht angezeigt
+| 8 |        Muss         | Funktional     |   Als ein User möchte ich bei jedem Versuch angezeigt bekommen, ob meine geratene Zahl kleiner oder grösser als die Zufallszahl ist.                                 |
 
 
 
@@ -49,8 +40,15 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1 |  Programm gestartet          |  -       |  Ich denke die Zahl ist:                 |
+| 1.1 |  Programm gestartet         |  -       |      Speichern von Zufallszahl             |
 | 2.1  |  Programm gestartet warten auf Eingabe von User            |  13       |   Richtig!/Falsch!                |
+| 3.1 |  Programm gestartet          |  -       |  Ich denke die Zahl ist:                 |
+| 4.1 |  Programm gestartet, Zufallszahl erraten         |  -       |  Wollen Sie nochmals spielen?                 |
+| 5.1 |  Programm gestartet, spiel läuft         |  Salma     |  Salma du hast richtig geraten!                |
+| 6.1 |  Programm gestartet, Zufallszahl erraten        |  -      |  Du hast x Versuche gebraucht                 |
+| 7.1 | Programm gestartet, warten auf Eingabe von User         |  zh     | Eingabe Fehlerhaft!                | 
+|8.1 |  Programm gestartet, spiel läuft      |   34      | Die Zufallszahl ist kleiner!                |
+
 
 
 ### 1.4 Diagramme
@@ -61,27 +59,41 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |  25.08.23     |Salma Tanner|  Generieren und Speichern der Zufallszahl            |    30min           |
+| 2.A |   25.08.23    |  Salma Tanner         |   Ausgabe von Rückmeldung, ob die geratene Zahl richtig ist.|30min  |        
+| 3.A  |   25.08.23    |  Salma Tanner         |   Benutzereingabe von geratener Zahl generieren           |    30min           |
+| 4.A  |   25.08.23    |  Salma Tanner         |   Nachfrage ob der Benutzer nach dem gewinnen nochmals eine Runde spielen will.           |   30min            |
+| 5.A |   25.08.23    |  Salma Tanner         |  Abfrage für Benutzer-Name erstellen           |    30min           |
+| 5.B |   25.08.23    |  Salma Tanner         |  benutzer-Name nach Gewinn mit Anzahl Versuchen ausgeben            |60min               |
+| 6.A |   25.08.23    |  Salma Tanner         |   Speichern der Anzahl Versuche           |  30min             |
+| 6.B |   25.08.23    |  Salma Tanner         |    Ausgabe von Anzahl Versuchen nach Gewinn          |  30min             |
+| 7.A |   25.08.23    |  Salma Tanner         |   Generieren von Fehlerausgabe bei inkorrekter Eingabe           | 60min              |
+| 8.A |   25.08.23    |  Salma Tanner         |     Ausgabe von Nachricht, wenn die geratene Zahl kleiner ist als die Zufallszahl.        |  30min             |
+| 8.B |   25.08.23    |  Salma Tanner         |    Ausgabe von Nachricht, wenn die geratene Zahl grösser ist als die Zufallszahl.             |  30min             |
 
-Total: 
+Total: 6.5h
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
-## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |  25.08.23     | Salma Tanner          |   30min            |     30min              |
+| 2.A  |   25.08.23     |  Salma Tanner         |   30min            |        30min           |
+| 3.A  |  25.08.23     |   Salma Tanner        |     30min         |        30min           |
+| 4.A  |  25.08.23     |  Salma Tanner         |     30min          |           30min        |
+| 5.A  |  25.08.23     |   Salma Tanner        |      30min         |       45min            |
+| 5.B  |  25.08.23     |   Salma Tanner        |      60min        |        190min           |
+| 6.A  |  25.08.23     |   Salma Tanner        |      30min         |      30min             |
+| 6.B  |  25.08.23     |   Salma Tanner        |       30min        |        30min           |
+| 7.A  |  25.08.23     |   Salma Tanner        |       60min        |         60min          |
+| 8.A  |  25.08.23     |   Salma Tanner        |       30min       |       30min            |
+| 8.B  |  25.08.23     |   Salma Tanner        |       30min        |      30min             |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
@@ -92,7 +104,5 @@ Total:
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
-## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
 
