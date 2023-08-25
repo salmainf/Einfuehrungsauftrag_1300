@@ -31,8 +31,18 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |   Muss              | Funktional     | Als User möchte ich Zahlen eingeben können, damit ich die Zufallszahl erraten kann. |
+| 2  |    Muss             |  Funktional    |   Als User möchte ich, dass ich eine Rückmeldung erhalte, ob meine geratene Zahl richtig ist.                              |
+| 3  |     Muss            | Funktional     |     Als User möchte ich bei einer Falschen Eingabe eine Nachricht angezeigt bekommen.                               |
+| 4  |      Muss           |    Funktional  |                Als ein Programmierer möchte ich bei einer inkorrekten Eingabe eine Fehlermeldung ausgeben, anstatt eines Shutdowns.                    |
+| 5  |       Muss          |   Funktional   |     Als ein Programmierer möchte ich den User fragen, ob er nochmals eine Runde spielen will, wenn er die Zufalszahl erraten hat.                                |
+| 6  |       Muss          |   Funktional   |    Als ein Programmierer möchte ich den Namen des Nutzers abfragen, damit ich am Ende das Ergebnis mit Namen ausgeben kann.                                  |
+| 7  |       Muss          |    Funktional  |  Als ein User möchte ich am Ende sehen, wie viele Versuche ich gebraucht habe.                             |
+| 8  |     Muss            |  Funktional    |    Als ein Programmierer möchte ich ene Zufallszahl zwischen 1-100 generieren.                                |
+| 9 |        Muss         | Funktional     |   Als ein User möchte ich bei jedem Versuch angezeigt bekommen, ob meine geratene Zahl kleiner oder grösser als die Zufallszahl ist.                                 |
+
+
+
 
 
 ### 1.3 Testfälle
