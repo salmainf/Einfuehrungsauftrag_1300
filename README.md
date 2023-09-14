@@ -6,20 +6,20 @@ Salma Tanner
 
 | Datum | Version | Zusammenfassung                                              | IPERKA      |
 | ----- | ------- | ------------------------------------------------------------ |-------|
-| 18.08.23      | 0.0.1   | Start des Projektes, beginnen mit der Projektdokumentation | I,P,E|
+| 18.08.23      | 0.0.1   | Start des Projektes, beginnen mit der Projektdokumentation, Einarbeiten in C# | I,P,E|
 | 25.08.23      | 0.0.2   | Starten mit Implementieren, Aktualisieren der Projektdokumentation.| R|
 |  01.09.23     | 0.0.3   | Weiterfahren mit Implementieren, Aktualisieren der Projektdokumentation|R|
 |08.09.23|0.0.4|Abschliessen mit der Implementation und Erledigen des Portfolioeintrages|KA|
 
-## 1 Informieren
+##  Informieren
 
-### 1.1 Ihr Projekt
+### Mein Projekt
 
 Ich habe in Visual Studio einen Numberguesser in C# implementiert.
 
 In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig aufzufrischen und aufzubessern und möglichst objektporientiert zu Programmieren. Dies möchte ich mit Hilfe von einfacher Repetition durch Kurse, PPP oder Youtube Videos umsetzen. Ich erhoffe mir meine Kenntnisse mit C# zu erweitern und nutzen, um das Projekt so effizient wie möglich umzusetzen.
 
-### 1.2 User Stories
+###  User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
@@ -39,37 +39,14 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 
 
-
-
-
-### 1.3 Testfälle
-
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1 |  Programm gestartet         |  -       |      Speichern von Zufallszahl in Variable            |
-| 2.1  |  Programm gestartet warten auf Eingabe von User            |  Zahl      |   Richtig!/Falsch!                |
-| 3.1 |  Programm gestartet          |  -       |  Ich denke die Zahl ist:                 |
-| 4.1 |  Programm gestartet, Zufallszahl erraten         |  -       |  Wollen Sie nochmals spielen?                 |
-| 5.1 |  Programm gestartet, spiel läuft im Multiplayer Modus        |  Namen der Spieler     |  Salma gib eine Zufallszahl ein:/ Sudenas errate die Zufallszahl:                |
-| 6.1 |  Programm gestartet, Zufallszahl erraten        |  -      |  Du hast x Versuche gebraucht                 |
-| 7.1 | Programm gestartet, warten auf Eingabe von User         |  zh     | Eingabe Fehlerhaft!                | 
-|8.1 |  Programm gestartet, spiel läuft, warten auf Eingabe von User      |   34      | Die Zufallszahl ist kleiner/grösser!                |
-|9.1 |  Programm gestartet, spiel läuft      |   -     | Willst du im Singleplayer oder im Multiplayer Modus spielen?:                |
-|10.1 |  Programm gestartet, spiel läuft      |   -      | Willst du im Limitierten oder Normalen Modus spielen?:                |
-|11.1 |  Programm gestartet, spiel läuft im Limitierten Modus     |   Limitiert     | Errate die Zufallszahl mit nur 5 Versuchen + Setzen der MaximalAttempts=5;                |
-|12.1 |  Programm gestartet, spiel läuft      |   Name des Spielers als Spieler 1      | Salma gib eine Zufallszahl ein:                |
-|13.1 |  Programm gestartet, spiel läuft, Console Clear      |   Eingabe Zufallszahl durch Spieler 1      | Sudenas errate die Zufallszahl:                |
-
-
-
-### 1.4 Diagramme
+###  Diagramme
 
 <img width="516" alt="Screenshot 2023-09-13 145402" src="https://github.com/salmainf/Einfuehrungsauftrag_1300/assets/110892351/fbe58592-4829-4703-b2c2-b39fa5b896bd">
 <img width="292" alt="Screenshot 2023-09-13 145257" src="https://github.com/salmainf/Einfuehrungsauftrag_1300/assets/110892351/5d6045b2-26d7-40c6-bb57-094bffac8663">
 <img width="298" alt="Screenshot 2023-09-13 145311" src="https://github.com/salmainf/Einfuehrungsauftrag_1300/assets/110892351/47aaaaf0-9fe5-4758-8ea4-619db6450732">
 
 
-## 2 Planen
+##  Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | 
 | ---- | ----- | --------- | ------------ | 
@@ -115,13 +92,42 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 
 ## 5 Kontrollieren
+###  Testfälle
+
+| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
+| ---- | ------------ | ------- | ----------------- |
+| 1.1 |  Programm gestartet         |  -       |      Speichern von Zufallszahl in Variable            |
+| 2.1  |  Programm gestartet warten auf Eingabe von User            |  Zahl      |   Richtig!/Falsch!                |
+| 3.1 |  Programm gestartet          |  -       |  Ich denke die Zahl ist:                 |
+| 4.1 |  Programm gestartet, Zufallszahl erraten         |  -       |  Wollen Sie nochmals spielen?                 |
+| 5.1 |  Programm gestartet, spiel läuft im Multiplayer Modus        |  Namen der Spieler     |  Salma gib eine Zufallszahl ein:/ Sudenas errate die Zufallszahl:                |
+| 6.1 |  Programm gestartet, Zufallszahl erraten        |  -      |  Du hast x Versuche gebraucht                 |
+| 7.1 | Programm gestartet, warten auf Eingabe von User         |  zh     | Eingabe Fehlerhaft!                | 
+|8.1 |  Programm gestartet, spiel läuft, warten auf Eingabe von User      |   34      | Die Zufallszahl ist kleiner/grösser!                |
+|9.1 |  Programm gestartet, spiel läuft      |   -     | Willst du im Singleplayer oder im Multiplayer Modus spielen?:                |
+|10.1 |  Programm gestartet, spiel läuft      |   -      | Willst du im Limitierten oder Normalen Modus spielen?:                |
+|11.1 |  Programm gestartet, spiel läuft im Limitierten Modus     |   Limitiert     | Errate die Zufallszahl mit nur 5 Versuchen + Setzen der MaximalAttempts=5;                |
+|12.1 |  Programm gestartet, spiel läuft      |   Name des Spielers als Spieler 1      | Salma gib eine Zufallszahl ein:                |
+|13.1 |  Programm gestartet, spiel läuft, Console Clear      |   Eingabe Zufallszahl durch Spieler 1      | Sudenas errate die Zufallszahl:                |
+
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |   08.09.23    |   Funktioniert       |  Salma Tanner      |
+| 2.1  |   08.09.23     |  Funktioniert         |  Salma Tanner        |
+| 3.1  |   08.09.23    |   Funktioniert        |   Salma Tanner       |
+| 4.1  |   08.09.23    |   Funktioniert        |   Salma Tanner       |
+| 5.1  |   08.09.23    |  Funktioniert         |   Salma Tanner       |
+| 6.1  |   08.09.23    |    Funktioniert       |   Salma Tanner       |
+| 7.1  |   08.09.23    |    Funktioniert teilweise      |   Salma Tanner       |
+| 8.1  |   08.09.23    |    Funktioniert       |   Salma Tanner       |
+| 9.1  |   08.09.23    |     Funktioniert      |   Salma Tanner       |
+| 10.1  |   08.09.23    |   Funktioniert        |   Salma Tanner       |
+| 11.1  |   08.09.23    |    Funktioniert       |   Salma Tanner       |
+| 12.1  |   08.09.23    |    Funktioniert       |   Salma Tanner       |
+| 13.1  |   08.09.23    |   Funktioniert        |   Salma Tanner       |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Das Spiel funktioniert im grossen und ganzen sehr gut, man kann es spielen. Sowohl im Multiplayer oder Singleplayer als auch im Normalen oder Limitierten Modus. Diese funktionieren alle einwandfrei. Die Fehlermeldungen werden jedoch nur bei den Benutzereingaben beim erraten der Zufallszahl angezeigt. Das ist ein Schwachpunkt, welcher ich noch verbessern hätte können. Dies hätte ich tun können, indem ich die Fehlermeldungen auch auf String's beziehe und nicht nur auf Int's. Darin lag mein Fehler, nun weiss ich es und kann es beim nächsten Projekt anwenden.
 
 
 
