@@ -32,6 +32,9 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 | 7    |     Muss        |  Funktional    |   Als User möchte ich bei einer Falschen Eingabe eine Nachricht angezeigt bekommen.| 
 | 8    |        Muss     | Funktional     |   Als ein User möchte ich bei jedem Versuch angezeigt bekommen, ob meine geratene Zahl kleiner oder grösser als die Zufallszahl ist.|
 | 9   |     Muss        |  Funktional    |   Als ein User möchte ich zwischen dem Singleplayer und Multiplayer Modus auswählen können.| 
+| 10   |     Muss        |  Funktional    |   Als ein User möchte ich zwischen dem Normalen und Limitierten Modus auswählen können.| 
+| 11  |     Muss        |  Funktional    |   Als ein User möchte ich | 
+
 
 
 
