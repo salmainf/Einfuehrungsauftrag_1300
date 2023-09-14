@@ -24,10 +24,10 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |   Muss          | Funktional     |  Als ein Programmierer möchte ich ene Zufallszahl zwischen 1-100 generieren. |
-| 2    |    Muss         |  Funktional    |   Als User möchte ich, dass ich eine Rückmeldung erhalten, ob meine geratene Zahl richtig ist.                              |
+| 2    |    Muss         |  Funktional    |   Als User möchte ich, dass ich eine Rückmeldung erhalte, ob meine geratene Zahl richtig ist.                              |
 | 3    |     Muss        | Funktional     |      Als User möchte ich Zahlen eingeben können, damit ich die Zufallszahl erraten kann.  |
 | 4    |       Muss      |   Funktional   |     Als ein Programmierer möchte ich den User fragen, ob er nochmals eine Runde spielen will, wenn er die Zufalszahl erraten hat.   |
-| 5    |       Muss      |   Funktional   |    Als ein Programmierer möchte ich den Namen des Nutzers abfragen, wenn im Multiplayer Modus gespielt wird.|
+| 5    |       Muss      |   Funktional   |    Als ein Programmierer möchte ich den Namen der Nutzer abfragen, wenn im Multiplayer Modus gespielt wird.|
 | 6    |       Muss      |    Funktional  |  Als ein User möchte ich am Ende sehen, wie viele Versuche ich gebraucht habe.|
 | 7    |     Muss        |  Funktional    |   Als User möchte ich bei einer Falschen Eingabe eine Nachricht angezeigt bekommen.| 
 | 8    |        Muss     | Funktional     |   Als ein User möchte ich bei jedem Versuch angezeigt bekommen, ob meine geratene Zahl kleiner oder grösser als die Zufallszahl ist.|
@@ -46,14 +46,19 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1 |  Programm gestartet         |  -       |      Speichern von Zufallszahl             |
-| 2.1  |  Programm gestartet warten auf Eingabe von User            |  13       |   Richtig!/Falsch!                |
+| 1.1 |  Programm gestartet         |  -       |      Speichern von Zufallszahl in Variable            |
+| 2.1  |  Programm gestartet warten auf Eingabe von User            |  Zahl      |   Richtig!/Falsch!                |
 | 3.1 |  Programm gestartet          |  -       |  Ich denke die Zahl ist:                 |
 | 4.1 |  Programm gestartet, Zufallszahl erraten         |  -       |  Wollen Sie nochmals spielen?                 |
-| 5.1 |  Programm gestartet, spiel läuft         |  Salma     |  Salma du hast richtig geraten!                |
+| 5.1 |  Programm gestartet, spiel läuft im Multiplayer Modus        |  Namen der Spieler     |  Salma gib eine Zufallszahl ein:/ Sudenas errate die Zufallszahl:                |
 | 6.1 |  Programm gestartet, Zufallszahl erraten        |  -      |  Du hast x Versuche gebraucht                 |
 | 7.1 | Programm gestartet, warten auf Eingabe von User         |  zh     | Eingabe Fehlerhaft!                | 
-|8.1 |  Programm gestartet, spiel läuft      |   34      | Die Zufallszahl ist kleiner!                |
+|8.1 |  Programm gestartet, spiel läuft, warten auf Eingabe von User      |   34      | Die Zufallszahl ist kleiner/grösser!                |
+|9.1 |  Programm gestartet, spiel läuft      |   -     | Willst du im Singleplayer oder im Multiplayer Modus spielen?:                |
+|10.1 |  Programm gestartet, spiel läuft      |   -      | Willst du im Limitierten oder Normalen Modus spielen?:                |
+|11.1 |  Programm gestartet, spiel läuft im Limitierten Modus     |   Limitiert     | Errate die Zufallszahl mit nur 5 Versuchen + Setzen der MaximalAttempts=5;                |
+|12.1 |  Programm gestartet, spiel läuft      |   Name des Spielers als Spieler 1      | Salma gib eine Zufallszahl ein:                |
+|13.1 |  Programm gestartet, spiel läuft, Console Clear      |   Eingabe Zufallszahl durch Spieler 1      | Sudenas errate die Zufallszahl:                |
 
 
 
