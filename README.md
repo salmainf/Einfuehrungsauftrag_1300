@@ -56,7 +56,10 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 ### 1.4 Diagramme
 
-![grafik](https://github.com/salmainf/Einfuehrungsauftrag_1300/assets/110892351/10695a91-c463-4790-ada5-4eeb36f5af8f)
+<img width="516" alt="Screenshot 2023-09-13 145402" src="https://github.com/salmainf/Einfuehrungsauftrag_1300/assets/110892351/fbe58592-4829-4703-b2c2-b39fa5b896bd">
+<img width="292" alt="Screenshot 2023-09-13 145257" src="https://github.com/salmainf/Einfuehrungsauftrag_1300/assets/110892351/5d6045b2-26d7-40c6-bb57-094bffac8663">
+<img width="298" alt="Screenshot 2023-09-13 145311" src="https://github.com/salmainf/Einfuehrungsauftrag_1300/assets/110892351/47aaaaf0-9fe5-4758-8ea4-619db6450732">
+
 
 ## 2 Planen
 
