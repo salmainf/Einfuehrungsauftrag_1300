@@ -8,7 +8,8 @@ Salma Tanner
 | ----- | ------- | ------------------------------------------------------------ |-------|
 | 18.08.23      | 0.0.1   | Start des Projektes, beginnen mit der Projektdokumentation | I,P,E|
 | 25.08.23      | 0.0.2   | Starten mit Implementieren, Aktualisieren der Projektdokumentation.| R|
-|       | 1.0.0   |                                                              |
+|  01.09.23     | 0.0.3   | Weiterfahren mit Implementieren, Aktualisieren der Projektdokumentation|R|
+|08.09.23|0.0.4|Abschliessen mit der Implementation und Erledigen des Portfolioeintrages|KA|
 
 ## 1 Informieren
 
