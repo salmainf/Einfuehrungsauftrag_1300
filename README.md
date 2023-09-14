@@ -17,7 +17,7 @@ Salma Tanner
 
 Ich habe in Visual Studio einen Numberguesser in C# implementiert.
 
-In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig aufzufrischen und aufzubessern. Dies möchte ich mit Hilfe von einfacher Repetition durch Kurse, PPP oder vergangenen Projekten umsetzen. Ich erhoffe mir meine Kenntnisse mit C# zu erweitern und nutzen, um das Projekt so effizient wie möglich umzusetzen.
+In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig aufzufrischen und aufzubessern und möglichst objektporientiert zu Programmieren. Dies möchte ich mit Hilfe von einfacher Repetition durch Kurse, PPP oder Youtube Videos umsetzen. Ich erhoffe mir meine Kenntnisse mit C# zu erweitern und nutzen, um das Projekt so effizient wie möglich umzusetzen.
 
 ### 1.2 User Stories
 
@@ -27,13 +27,16 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 | 2    |    Muss         |  Funktional    |   Als User möchte ich, dass ich eine Rückmeldung erhalten, ob meine geratene Zahl richtig ist.                              |
 | 3    |     Muss        | Funktional     |      Als User möchte ich Zahlen eingeben können, damit ich die Zufallszahl erraten kann.  |
 | 4    |       Muss      |   Funktional   |     Als ein Programmierer möchte ich den User fragen, ob er nochmals eine Runde spielen will, wenn er die Zufalszahl erraten hat.   |
-| 5    |       Muss      |   Funktional   |    Als ein Programmierer möchte ich den Namen des Nutzers abfragen, wenn im Multiplayer Modus gespielt wird.                        |
+| 5    |       Muss      |   Funktional   |    Als ein Programmierer möchte ich den Namen des Nutzers abfragen, wenn im Multiplayer Modus gespielt wird.|
 | 6    |       Muss      |    Funktional  |  Als ein User möchte ich am Ende sehen, wie viele Versuche ich gebraucht habe.|
 | 7    |     Muss        |  Funktional    |   Als User möchte ich bei einer Falschen Eingabe eine Nachricht angezeigt bekommen.| 
 | 8    |        Muss     | Funktional     |   Als ein User möchte ich bei jedem Versuch angezeigt bekommen, ob meine geratene Zahl kleiner oder grösser als die Zufallszahl ist.|
 | 9   |     Muss        |  Funktional    |   Als ein User möchte ich zwischen dem Singleplayer und Multiplayer Modus auswählen können.| 
 | 10   |     Muss        |  Funktional    |   Als ein User möchte ich zwischen dem Normalen und Limitierten Modus auswählen können.| 
-| 11  |     Muss        |  Funktional    |   Als ein User möchte ich | 
+| 11  |     Muss        |  Funktional    |   Als ein User möchte ich im Limitierten Modus 5 Versuche zu Verfügung gestellt bekommen | 
+| 12   |       Muss      |    Funktional  |  Als ein User möchte ich im Multiplayer Modus als Spieler 1 eine Zufallszahl eingeben können|
+| 13    |       Muss      |    Funktional  |  Als ein User möchte ich als Spieler 2 die Zahl erraten können.|
+
 
 
 
