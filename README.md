@@ -71,21 +71,26 @@ In diesem Projekt geht es vorallem darum, meine C# Kenntnisse wieder ein wenig a
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  25.08.23     |Salma Tanner|  Generieren und Speichern der Zufallszahl            |    30min           |
-| 2.A |   25.08.23    |  Salma Tanner         |   Ausgabe von Rückmeldung, ob die geratene Zahl richtig ist.|30min  |        
-| 3.A  |   25.08.23    |  Salma Tanner         |   Benutzereingabe von geratener Zahl generieren           |    30min           |
-| 4.A  |   25.08.23    |  Salma Tanner         |   Nachfrage ob der Benutzer nach dem gewinnen nochmals eine Runde spielen will.           |   30min            |
-| 5.A |   25.08.23    |  Salma Tanner         |  Abfrage für Benutzer-Name erstellen           |    30min           |
-| 5.B |   25.08.23    |  Salma Tanner         |  benutzer-Name nach Gewinn mit Anzahl Versuchen ausgeben            |60min               |
-| 6.A |   25.08.23    |  Salma Tanner         |   Speichern der Anzahl Versuche           |  30min             |
-| 6.B |   25.08.23    |  Salma Tanner         |    Ausgabe von Anzahl Versuchen nach Gewinn          |  30min             |
-| 7.A |   25.08.23    |  Salma Tanner         |   Generieren von Fehlerausgabe bei inkorrekter Eingabe           | 60min              |
-| 8.A |   25.08.23    |  Salma Tanner         |     Ausgabe von Nachricht, wenn die geratene Zahl kleiner ist als die Zufallszahl.        |  30min             |
-| 8.B |   25.08.23    |  Salma Tanner         |    Ausgabe von Nachricht, wenn die geratene Zahl grösser ist als die Zufallszahl.             |  30min             |
+| AP-№ | Frist | Zuständig | Beschreibung | 
+| ---- | ----- | --------- | ------------ | 
+| 1.A  |  25.08.23     |Salma Tanner|  Generieren und Speichern der Zufallszahl            |   
+| 2.A |   25.08.23    |  Salma Tanner         |   Ausgabe von Rückmeldung, ob die geratene Zahl richtig ist.|       
+| 3.A  |   25.08.23    |  Salma Tanner         |   Benutzereingabe von geratener Zahl generieren           |   
+| 4.A  |   25.08.23    |  Salma Tanner         |   Nachfrage ob der Benutzer nach dem gewinnen nochmals eine Runde spielen will.           |  
+| 5.A |   25.08.23    |  Salma Tanner         |  Abfrage für Benutzer-Name erstellen           |   
+| 5.B |   25.08.23    |  Salma Tanner         |  benutzer-Name nach Gewinn mit Anzahl Versuchen ausgeben            |
+| 6.A |   25.08.23    |  Salma Tanner         |   Speichern der Anzahl Versuche           |  
+| 6.B |   25.08.23    |  Salma Tanner         |    Ausgabe von Anzahl Versuchen nach Gewinn          |  
+| 7.A |   25.08.23    |  Salma Tanner         |   Generieren von Fehlerausgabe bei inkorrekter Eingabe           | 
+| 8.A |    01.09.23     |  Salma Tanner         |     Ausgabe von Nachricht, wenn die geratene Zahl kleiner ist als die Zufallszahl.        |  
+| 8.B |   01.09.23    |  Salma Tanner         |    Ausgabe von Nachricht, wenn die geratene Zahl grösser ist als die Zufallszahl.             |  
+| 9.A |   01.09.23    |  Salma Tanner         |   Einbauen des Multiplayer Modus           | 
+| 10.A |    01.09.23     |  Salma Tanner         |   Einbauen des Limitierten Modus           | 
+| 11.A |    01.09.23     |  Salma Tanner         |   Ändern der Anzahl maximaler Versuche im Limitierten Modus           | 
+| 12.A |    01.09.23     |  Salma Tanner         |   Benutzerdefinierte Eingabe der Zufallszahl im Multiplayer Modus           | 
+| 13.A |   01.09.23    |  Salma Tanner         |   Benutzereingabe zum erraten der benutzerdefinierten Zufallszahl          | 
 
-Total: 6.5h
+
 
 
 
